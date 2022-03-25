@@ -1,0 +1,125 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://c9323f64-2f5e-473c-acb7-35e7f765d1dc",
+	"@type": "sc:Manifest",
+	"label": "Von den Bädern, Clement von Graz, Brünn : [Conrad Stahel and Mathias Preunlein], 1495. BL",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[London, British Library (IA.51720)]",
+	"sequences": [
+		{
+			"@id": "http://461b1f06-e533-4826-a3ea-e1f4f4597f35",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://e0d07fe6-9ed8-4ef9-a127-71da25b2c9bd",
+					"@type": "sc:Canvas",
+					"label": "Von den Bädern, Clement von Graz, Brünn : [Conrad Stahel and Mathias Preunlein], 1495. BL",
+					"height": 6370,
+					"width": 4632,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://1bdacc09-3c35-4f66-a1b1-8ec22f3bc00b",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100108835798.0x000007/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100108835798.0x000007",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 6370,
+								"width": 4632
+							},
+							"on": "http://e0d07fe6-9ed8-4ef9-a127-71da25b2c9bd"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://995d29fe-d75c-41dc-a38b-336a62511f01",
+					"@type": "sc:Canvas",
+					"label": "Von den Bädern, Folz, Hans. [Nuremberg : Hans Mair, before 1495] BSB.\n",
+					"height": 4622,
+					"width": 1765,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ad3521ed-d3c8-4285-ae46-d7b8c6d89ce9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027049_00005/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00027049_00005",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"gif",
+												"jpg",
+												"png",
+												"tif",
+												"webp"
+											],
+											"supports": [
+												"profileLinkHeader",
+												"canonicalLinkHeader",
+												"regionSquare",
+												"rotationBy90s",
+												"mirroring",
+												"sizeAboveFull"
+											]
+										}
+									]
+								},
+								"height": 4622,
+								"width": 1765
+							},
+							"on": "http://995d29fe-d75c-41dc-a38b-336a62511f01"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [],
+	"thumbnail": {
+		"@id": "http://995d29fe-d75c-41dc-a38b-336a62511f01"
+	}
+}
